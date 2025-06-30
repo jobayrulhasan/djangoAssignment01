@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'course',  # Custom app for courses
     'resources',  # Custom app for resources
     'blog',  # Custom app for blog
+    'temTag',  # Custom app for template tags
 ]
 
 MIDDLEWARE = [
