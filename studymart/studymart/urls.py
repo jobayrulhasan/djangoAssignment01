@@ -23,4 +23,5 @@ urlpatterns = [
     path('res/', include('resources.urls')),  # Include resources URLs
     path('blog/', include('blog.urls')),  # Include blog URLs
     path('tTag/', include('temTag.urls')),  # Include template tag URLs
+    path('sta/', include('staticFileWork.urls')),  # Include static file URLs
 ]
