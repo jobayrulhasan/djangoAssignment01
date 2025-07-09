@@ -1,17 +1,60 @@
-/* body{
-    background-color: antiquewhite;
-} */
+   body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f4f8;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
-  width: 40%;
-  border-radius: 5px;
-}
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 300px;
+      transition: transform 0.3s ease;
+    }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.container {
-  padding: 2px 16px;
-}
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-size: 1.4em;
+      margin-bottom: 10px;
+      color: #333;
+      text-align: center;
+    }
+
+    .card-description {
+      font-size: 0.95em;
+      color: #666;
+      margin-bottom: 16px;
+      text-align: justify;
+    }
+
+    .card-button {
+      display: inline-block;
+      padding: 10px 16px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 500;
+      transition: background-color 0.3s ease;
+    }
+
+    .card-button:hover {
+      background-color: #0056b3;
+    }
